@@ -12,4 +12,4 @@ function appendKitten(a) {var NewKittens = [...kittens,a]; return NewKittens}
 
 function prependKitten(a) {var NewKittens = [a,...kittens]; return NewKittens}
 
-function removeFirstKitten() {var NewKittens = [kittens.slice(1)]; return NewKittens}
+function removeFirstKitten() {var NewKittens = kittens.slice(1); return NewKittens}
