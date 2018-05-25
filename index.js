@@ -8,4 +8,4 @@ function destructivelyRemoveLastKitten(a){kittens.pop(a); return kittens}
 
 function destructivelyRemoveFirstKitten(a){kittens.shift(a); return kittens}
 
-function appendKitten(a) {
+function addNames(a) {var NewKittens = [...Names,a]; return NewNames}
